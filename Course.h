@@ -13,7 +13,7 @@ public Course{
   int currentStudents;
   public:
   Course::Course();
-  void course::addStudent(student & s);
+  void Course::addStudent(student & s);
   Course::Course(cc,cn,m,cs);
   Course::~Course();
   void Course::displayCourseInfo();
