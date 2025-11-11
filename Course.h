@@ -16,7 +16,7 @@ public Course{
   void course::addStudent(student & s);
   Course::Course(cc,cn,m,cs);
   Course::~Course();
-  
+  void Course::displayCourseInfo();
   
 }
 
