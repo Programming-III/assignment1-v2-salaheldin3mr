@@ -4,22 +4,19 @@
 #include "Person.h"
 #include <string>
 #using namespace std;
-public student{
-  private:
-  int yearLevel ;
-  int major;
-  public:
-  student:: student(y,m){
-    yearLevel=y;
-    major=m;
+  public student{
+    private:
+    int yearLevel ;
+    int major;
+    public:
+    student::student();
+    student::~student();
+    student:: student(y,m);
+    void student:: display();
+    
     
   }
-  void student:: display(){
-    cout<<"yearLevel:"<<yearLevel<<"major:"<<major<<endl;
-  }
-  
-  
-}
+
 
 
 
