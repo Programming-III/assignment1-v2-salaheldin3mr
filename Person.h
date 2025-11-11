@@ -8,9 +8,7 @@ class person{
   string name;
   int id;
   public:
-  void person:: display(){
-  cout<<"name:"<<name<<"id:"<<id<<endl;  
-  }
+  void person:: display();
   
 };
 
