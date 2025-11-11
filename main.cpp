@@ -109,6 +109,13 @@ void Course::displayCourseInfo(){
   cout<<"code:"<<Coursecode<<"name:"<<coursename<<"maxStudents:"<<maxStudents<<"currentStudents:"<<currentStudents<<endl;
 }
 void Course: addStudent(Student * students){
+     int [] a= new a[currentStudents+1];
+  for(int i =0 ;i<currentStudents<i++){
+    a[i]=students[i];
+  }
+  a[currentStudents]=s;
+  
+}
   
 }
 
