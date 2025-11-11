@@ -7,7 +7,7 @@
   public student{
     private:
     int yearLevel ;
-    int major;
+    string major;
     public:
     student::student();
     student::~student();
