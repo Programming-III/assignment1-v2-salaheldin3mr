@@ -113,7 +113,9 @@ void Course: addStudent(Student * students){
   for(int i =0 ;i<currentStudents<i++){
     a[i]=students[i];
   }
-  a[currentStudents]=s;
+  a[currentStudents+1]=s;
+    currentStudents++;
+    delete[] students;
   
 }
   
