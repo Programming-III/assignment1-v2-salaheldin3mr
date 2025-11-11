@@ -9,7 +9,7 @@ public Course{
   string Coursecode;
   string coursename;
   int maxStudents;
-  Stusent * students;
+  Student * students;
   int currentStudents;
   public:
   Course::Course();
