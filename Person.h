@@ -8,10 +8,12 @@ class person{
   string name;
   int id;
   public:
+  person::person();
+  person:person(n,i);
+  person::~person();
   void person:: display();
   
 };
-
 
 
 #endif
