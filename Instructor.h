@@ -3,10 +3,20 @@
 
 #include "Person.h"
 using namespace std;
-//#write Instructor class here
-
-
-
+public Instuctor{
+  private:
+  string department;
+  int experienceYears;
+  
+  public:
+  Instuctor:: Instuctor(d,e){
+    department=d;
+    experienceYears=e;
+  }
+  void Instuctor:display(){
+    cout<<department<<experienceYears<<endl;
+  }
+}
 
 
 
