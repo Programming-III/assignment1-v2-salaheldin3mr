@@ -9,14 +9,14 @@ public Instuctor{
   int experienceYears;
   
   public:
-  Instuctor:: Instuctor(d,e){
-    department=d;
-    experienceYears=e;
-  }
-  void Instuctor:display(){
-    cout<<department<<experienceYears<<endl;
-  }
+  Instuctor::Instuctor();
+  Instuctor::~Instuctor();
+  Instuctor:: Instuctor(d,e);
+  void Instuctor:display();
 }
+
+
+
 
 
 
