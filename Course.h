@@ -17,9 +17,9 @@ public Course{
   Course::Course(cc,cn,m,cs);
   Course::~Course();
   void Course::displayCourseInfo();
-ostream& course::operator<<(os,s);
-student course:: operator[](a,n,s);
-  void course:: operator+(a,c,s);
+ostream& Course::operator<<(os,s);
+student Course:: operator[](a,n,s);
+  void Course:: operator+(a,c,s);
 boolean Course:: operator==( a ,  b,  s);
 
 
