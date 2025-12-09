@@ -17,6 +17,7 @@ public Course{
   Course::Course(cc,cn,m,cs);
   Course::~Course();
   void Course::displayCourseInfo();
+ostream& course::overload<<(os,s);
   
 }
 
