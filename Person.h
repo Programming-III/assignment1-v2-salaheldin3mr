@@ -12,6 +12,7 @@ class person{
   person:person(n,i);
   person::~person();
   void person:: display();
+boolean person:: operator==( a ,  b,  s){
   
 };
 
