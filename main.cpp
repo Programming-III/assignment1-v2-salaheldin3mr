@@ -184,6 +184,7 @@ boolean Course:: operator==(object a , object b, int s){
     }
     return false;
   }
+
   
 
 
@@ -195,12 +196,18 @@ boolean Course:: operator==(object a , object b, int s){
 
 // ==================== Main Function ====================
 int main() {
-  student s= new student(2,cs);
-  Instructor i= new Instructor(dep,2);
-  Course c= new Course("cs101","introduvtin to programming",3,5);
+  student s= new student(2,"cs");
+  Instructor i= new Instructor("dep",2);
+  Course c= new Course("cs101","introduction to programming",3,5);
   s.display();
   i.display();
   c.displayCourseInfo();
+    Instructor t= new Instructor("computer science",5);
+    operator<<(cout,t,5);
+    student s= new student(2,"informatics");
+    operator[](s,3,2)
+    Course y= new Course(""cs101","introduction to programming",3,2);
+    
    
     
     return 0;
