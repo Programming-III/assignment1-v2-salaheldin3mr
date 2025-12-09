@@ -21,6 +21,7 @@ ostream& Course::operator<<(os,s);
 student Course:: operator[](a,n,s);
   void Course:: operator+(a,c,s);
 boolean Course:: operator==( a ,  b,  s);
+}
 
 
 
