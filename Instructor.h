@@ -13,8 +13,9 @@ public Instuctor{
   Instuctor::~Instuctor();
   Instuctor:: Instuctor(d,e);
   void Instuctor:display();
-ostream& instructor::operator<<(os,s);
-}
+ostream& Instructor::operator<<(os,s);
+boolean Instuctor:: operator==( a ,  b,  s);
+
 
 
 
