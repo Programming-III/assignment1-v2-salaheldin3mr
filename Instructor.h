@@ -13,6 +13,7 @@ public Instuctor{
   Instuctor::~Instuctor();
   Instuctor:: Instuctor(d,e);
   void Instuctor:display();
+ostream& instructor::overload<<(os,s);
 }
 
 
