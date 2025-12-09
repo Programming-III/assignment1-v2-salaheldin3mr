@@ -61,7 +61,7 @@ void student:: display(){
      }
 friend ostream student:: operator<<(ostream& os,object t[],int s){
   os<<"{"+
-  for(int i=0,i<s,i++){
+  for(int i=0;i<s;i++){
     os<<t[i];
   }
   os<<"}";
@@ -91,7 +91,7 @@ friend ostream student:: operator<<(ostream& os,object t[],int s){
   }
 friend ostream& instructor::operator<<(ostream& os,object t[],int s){
   os<<"{"+
-  for(int i=0,i<s,i++){
+  for(int i=0;i<s;i++){
     os<<t[i];
   }
   os<<"}";
@@ -122,7 +122,7 @@ void Course::displayCourseInfo(){
 }
 void Course: addStudent(Student * students){
      int [] a= new a[currentStudents+1];
-  for(int i =0 ;i<currentStudents<i++){
+  for(int i =0 ;i<currentStudents;i++){
     a[i]=students[i];
   }
   a[currentStudents+1]=s;
@@ -133,12 +133,12 @@ void Course: addStudent(Student * students){
 }
 friend ostream& course ::operator<<(ostream& os,object t[],int s){
   os<<"{"+
-  for(int i=0,i<s,i++){
+  for(int i=0;i<s;i++){
     os<<t[i];
   }
   os<<"}";
     student course:: operator[](object a[], int n,int s){
- for (int i = 0 , i<s;i++){
+ for (int i = 0 ; i<s;i++){
    return a[n];
  }
 }
