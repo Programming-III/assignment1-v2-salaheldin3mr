@@ -40,6 +40,11 @@ boolean person ::operator==(object a , object b, int s){
     }
     return false;
   }
+friend void person:: roleInfo(){
+  cout<<this.id<<this.name;
+  
+}
+
 
 
 
@@ -79,6 +84,10 @@ boolean student::operator==(object a , object b, int s){
     }
     return false;
   }
+void student:: roleInfo(){
+  cout<<this.major;
+  
+}
     
     
     
@@ -116,6 +125,11 @@ boolean Intructor:: operator==(object a , object b, int s){
     }
     return false;
   }
+void Instructor:: roleInfo(){
+  cout<<this.department;
+  
+}
+    
 
 
 
