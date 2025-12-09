@@ -14,10 +14,11 @@
     student:: student(y,m);
     void student:: display();
 ostream& student::operator<<(os,s);
+boolean student:: operator==( a ,  b,  s);
 
     
     
-  }
+}
 
 
 
