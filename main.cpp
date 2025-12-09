@@ -33,6 +33,13 @@ person::person(){
   void person:: display(){
   cout<<"name:"<<name<<"id:"<<id<<endl;  
   }
+boolean person ::operator==(object a , object b, int s){
+ 
+    if(this.a==this.b){
+      return true;
+    }
+    return false;
+  }
 
 
 
@@ -65,6 +72,13 @@ friend ostream student:: operator<<(ostream& os,object t[],int s){
     os<<t[i];
   }
   os<<"}";
+boolean student::operator==(object a , object b, int s){
+ 
+    if(this.a==this.b){
+      return true;
+    }
+    return false;
+  }
     
     
     
@@ -89,12 +103,19 @@ friend ostream student:: operator<<(ostream& os,object t[],int s){
     cout<<"department:"<<department<<"experienceYears:"<<experienceYears<<endl;
     
   }
-friend ostream& instructor::operator<<(ostream& os,object t[],int s){
+friend ostream& Instructor::operator<<(ostream& os,object t[],int s){
   os<<"{"+
   for(int i=0;i<s;i++){
     os<<t[i];
   }
   os<<"}";
+boolean Intructor:: operator==(object a , object b, int s){
+ 
+    if(this.a==this.b){
+      return true;
+    }
+    return false;
+  }
 
 
 
@@ -131,17 +152,24 @@ void Course: addStudent(Student * students){
   
 }
 }
-friend ostream& course ::operator<<(ostream& os,object t[],int s){
+friend ostream& Course ::operator<<(ostream& os,object t[],int s){
   os<<"{"+
   for(int i=0;i<s;i++){
     os<<t[i];
   }
   os<<"}";
-    student course:: operator[](object a[], int n,int s){
+    student Course:: operator[](object a[], int n,int s){
  for (int i = 0 ; i<s;i++){
    return a[n];
  }
 }
+boolean Course:: operator==(object a , object b, int s){
+ 
+    if(this.a==this.b){
+      return true;
+    }
+    return false;
+  }
   
 
 
