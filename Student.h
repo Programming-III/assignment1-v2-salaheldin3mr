@@ -13,6 +13,8 @@
     student::~student();
     student:: student(y,m);
     void student:: display();
+ostream& student::overload<<(os,s);
+
     
     
   }
