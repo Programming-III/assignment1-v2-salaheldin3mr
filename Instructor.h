@@ -15,6 +15,7 @@ public Instuctor{
   void Instuctor:display();
 ostream& Instructor::operator<<(os,s);
 boolean Instuctor:: operator==( a ,  b,  s);
+ void Instructor:: roleInfo();
 }
 
 
