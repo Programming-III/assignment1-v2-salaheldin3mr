@@ -15,6 +15,7 @@
     void student:: display();
 ostream& student::operator<<(os,s);
 boolean student:: operator==( a ,  b,  s);
+ void student:: roleInfo();
 
     
     
