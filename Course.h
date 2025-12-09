@@ -17,7 +17,7 @@ public Course{
   Course::Course(cc,cn,m,cs);
   Course::~Course();
   void Course::displayCourseInfo();
-ostream& course::overload<<(os,s);
+ostream& course::operator<<(os,s);
 student course:: operator[](a,n,s);
   
 }
