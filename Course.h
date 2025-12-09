@@ -20,7 +20,8 @@ public Course{
 ostream& course::operator<<(os,s);
 student course:: operator[](a,n,s);
   void course:: operator+(a,c,s);
-}
+boolean Course:: operator==( a ,  b,  s);
+
 
 
 
