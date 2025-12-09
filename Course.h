@@ -19,7 +19,7 @@ public Course{
   void Course::displayCourseInfo();
 ostream& course::operator<<(os,s);
 student course:: operator[](a,n,s);
-  
+  void course:: operator+(a,c,s);
 }
 
 
