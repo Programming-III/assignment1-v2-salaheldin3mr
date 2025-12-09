@@ -59,10 +59,10 @@ void student:: display(){
        major="";
        
      }
-friend ostream& overload<<(ostream& os,object s){
+friend ostream& overload<<(ostream& os,object t,int s){
   os<<"{"+
-  for(int i=0,i<s.size(),i++){
-    this.s;
+  for(int i=0,i<s,i++){
+    this.t;
   }
   os<<"}";
     
@@ -89,10 +89,10 @@ friend ostream& overload<<(ostream& os,object s){
     cout<<"department:"<<department<<"experienceYears:"<<experienceYears<<endl;
     
   }
-friend ostream& overload<<(ostream& os,object s){
+friend ostream& overload<<(ostream& os,object t,int s){
   os<<"{"+
-  for(int i=0,i<s.size(),i++){
-    this.s;
+  for(int i=0,i<s,i++){
+    this.t;
   }
   os<<"}";
 
@@ -131,10 +131,10 @@ void Course: addStudent(Student * students){
   
 }
 }
-friend ostream& overload<<(ostream& os,object s){
+friend ostream& overload<<(ostream& os,object t,int s){
   os<<"{"+
-  for(int i=0,i<s.size(),i++){
-    this.s;
+  for(int i=0,i<s,i++){
+    this.t;
   }
   os<<"}";
   
